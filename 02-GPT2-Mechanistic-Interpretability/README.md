@@ -9,6 +9,23 @@ to GPT-2. The two are kept clearly separate throughout this README and the
 repository structure, since they represent very different levels of depth
 and should not be conflated.
 
+## Results at a Glance
+
+- Model: **GPT-2 small** (`d_model = 768`)
+- Fitted lens covers **11 source layers** (layers 0–10)
+- Each stored Jacobian matrix: **[768 × 768]**
+- **Experiment 1** (lens inspection, in `02_Jacobian_Analysis.ipynb`)
+  **executes successfully**
+- The fitted lens used for Experiment 1 was fit on **`n_prompts = 1`** — a
+  single-prompt, demonstration-scale artifact, not a statistically robust
+  evaluation
+- Steps 2–9 of the research roadmap (matrix statistics, heatmaps, SVD, layer
+  comparisons, cosine similarity, scaling, stability, code models) are
+  **planned, not yet implemented**
+
+See [Results / Verified Observations](#results--verified-observations) and
+[Current Research Status](#current-research-status) for full detail.
+
 ## Project Components
 
 1. **`foundational/transformer-lens-learning/`** — seven short scripts
@@ -62,6 +79,25 @@ implementation:
   in `Notes/`.
 - A research roadmap for further analysis (partially implemented — see
   [Current Research Status](#current-research-status)).
+
+## Engineering Contribution
+
+Beyond running the existing tool as documented, getting a working GPT-2
+pipeline required real adaptation and debugging work:
+
+- Wired GPT-2 into `jlens.from_hf`, a path Anthropic's own examples don't
+  cover (their walkthrough targets Qwen models).
+- Built `english_corpus/` from scratch — a synthetic prompt generator — to
+  provide fitting input independent of Anthropic's bundled examples.
+- Diagnosed and fixed two execution bugs while adapting
+  `02_Jacobian_Analysis.ipynb`: a checkpoint filename mismatch that raised
+  `FileNotFoundError`, and an incorrect attribute reference
+  (`lens.jacobian` instead of the library's actual `lens.jacobians`) that
+  raised `AttributeError` even after the filename was corrected. Both were
+  root-caused and fixed to get Experiment 1 executing end-to-end.
+- Read and annotated Anthropic's `jlens` source (see `Notes/` and the
+  in-code comments) to understand the fitting/transport math well enough to
+  apply it correctly to a new model.
 
 ## Technical Background
 
@@ -160,7 +196,8 @@ or `walkthrough_my.ipynb` regenerates them locally.
 
 ## Results / Verified Observations
 
-Verified, reproducible facts from the Jacobian Lens component:
+Verified, reproducible facts from the Jacobian Lens component (summarized
+above in [Results at a Glance](#results-at-a-glance)):
 
 - Model: **GPT-2 small**, `d_model = 768`.
 - The fitted lens used in Experiment 1 covers **11 source layers**
@@ -172,11 +209,10 @@ Verified, reproducible facts from the Jacobian Lens component:
   demonstrated successfully in `01_GPT2_Walkthrough.ipynb` and
   `walkthrough_my.ipynb`.
 
-**Important limitation on the above**: the fitted lens used for Experiment 1
-was fit on **`n_prompts = 1`** — a single prompt. This is a
-demonstration-scale artifact confirming the pipeline works end-to-end, **not
-a statistically robust evaluation**. No accuracy, benchmark, or performance
-numbers are reported or claimed anywhere in this project.
+As noted above, this fit used a single prompt (`n_prompts = 1`) and is
+demonstration-scale, not a statistically robust evaluation. No accuracy,
+benchmark, or performance numbers are reported or claimed anywhere in this
+project.
 
 ## Current Research Status
 
@@ -197,18 +233,15 @@ numbers are reported or claimed anywhere in this project.
 
 ## Limitations
 
-- The foundational TransformerLens scripts are introductory exercises, not
-  a research contribution — they should not be read as such.
-- The fitted lens behind Experiment 1 was fit on a single prompt
-  (`n_prompts = 1`) — a demonstration artifact, not a robust fit.
-- The Jacobian Lens research roadmap is incomplete by design (Steps 2–9
-  unimplemented).
-- No claim of algorithmic novelty — the Jacobian Lens technique is
-  Anthropic's, not developed in this repository.
+- The foundational TransformerLens scripts (`foundational/`) are
+  introductory exercises, not a research contribution — see
+  [Foundational TransformerLens Learning](#foundational-transformerlens-learning).
 - Results are specific to GPT-2 small and the particular fitted-lens
-  configuration used; they should not be generalized.
-- Nothing in this repository should be interpreted as a statistically
-  robust or benchmark-validated conclusion.
+  configuration used here; they should not be generalized to other models
+  or larger prompt sets.
+- The Jacobian Lens research roadmap remains partially implemented — see
+  [Current Research Status](#current-research-status) for exactly what is
+  and isn't done.
 
 ## Attribution
 

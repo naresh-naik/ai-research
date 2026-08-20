@@ -6,6 +6,27 @@ This project implements the original encoder-decoder Transformer architecture (V
 
 The model is trained on a tiny, hand-written English→French translation dataset. This is **not** a production translation system and does not claim state-of-the-art (or even competitive) translation quality — it is a learning project focused on correctly implementing and inspecting the architecture.
 
+## Implementation Highlights
+
+- A complete encoder-decoder Transformer built from first principles in
+  PyTorch — no `nn.Transformer`/`nn.MultiheadAttention` shortcuts anywhere
+  in the model code.
+- Multi-head self-attention, masked decoder self-attention, and
+  encoder-decoder cross-attention all implemented and wired together
+  manually (see `model.py`, `decoder.py`, `transformer.py`).
+- Custom attention-inspection tooling: per-head attention-weight
+  visualization and layer-wise hidden-state cosine-similarity analysis
+  (`attention_analysis.py`), not just a training loop.
+- Found and fixed a real batch-dimension bug in the encoder's residual path
+  (`EncoderBlock` was silently collapsing multi-example batches down to a
+  single example's attention output) — verified with a dedicated
+  forward-pass test comparing batched vs. per-example outputs before and
+  after the fix.
+- A reproducible, documented training pipeline (see [Training](#training))
+  with an honest account of what does and doesn't work at this scale (see
+  [Results / Observations](#results--observations) and
+  [Limitations](#limitations)).
+
 ## What This Project Demonstrates
 
 - Token embeddings (`InputEmbeddings`, scaled by √d_model)
