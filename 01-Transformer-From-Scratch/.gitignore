@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints (regenerate locally via train.py)
+*.pth
+*.pt
+
+# Editor / IDE
+.ropeproject/
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packaging / build artifacts
+*.egg-info/
+build/
+dist/

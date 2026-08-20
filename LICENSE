@@ -1,0 +1,17 @@
+This repository contains two independent projects, each under its own
+license. There is no single license governing this repository as a whole.
+
+- `01-Transformer-From-Scratch/` is licensed under the MIT License.
+  See: 01-Transformer-From-Scratch/LICENSE
+
+- `02-GPT2-Mechanistic-Interpretability/` is licensed under the Apache
+  License, Version 2.0 for its own original material, and additionally
+  incorporates Anthropic's Apache-2.0-licensed Jacobian Lens code and an
+  MIT-licensed TransformerLens dependency.
+  See: 02-GPT2-Mechanistic-Interpretability/LICENSE
+  See: 02-GPT2-Mechanistic-Interpretability/NOTICE.md
+
+Refer to each project's own LICENSE (and, for Project 02, NOTICE.md) for
+the actual license terms and required attribution that apply to that
+project's files. Do not assume terms from one project's license apply to
+the other.

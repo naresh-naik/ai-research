@@ -1,0 +1,15 @@
+i love ai    |||    j aime ia
+
+good morning    |||    bonjour
+
+how are you    |||    comment allez vous
+
+i am happy    |||    je suis heureux
+
+i love machine learning    |||    jaime lapprentissage automatique
+
+what is your name    |||    comment tu tappelles
+
+nice to meet you    |||    ravi de vous rencontrer
+
+see you tomorrow    |||    a demain

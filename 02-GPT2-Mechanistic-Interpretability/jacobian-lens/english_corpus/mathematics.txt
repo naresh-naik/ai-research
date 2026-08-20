@@ -1,0 +1,19 @@
+Mathematics describes relationships using numbers, symbols, and logical reasoning. It provides the foundation for science and engineering.
+
+Addition combines quantities while subtraction measures differences between them.
+
+Multiplication represents repeated addition, and division distributes quantities into equal parts.
+
+Algebra introduces variables that represent unknown values within equations.
+
+Functions map every input value to exactly one output value.
+
+Calculus studies change through derivatives and accumulation through integrals.
+
+Probability measures the likelihood that an event will occur.
+
+Matrices organize numbers into rows and columns for efficient computation.
+
+Vectors possess both magnitude and direction.
+
+Eigenvalues describe important properties of linear transformations.

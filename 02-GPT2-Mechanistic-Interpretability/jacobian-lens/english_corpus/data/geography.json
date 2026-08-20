@@ -1,0 +1,57 @@
+[
+    {
+        "country": "France",
+        "capital": "Paris",
+        "continent": "Europe",
+        "climate": "temperate",
+        "terrain": "mountains, plains, and rivers",
+        "landmark": "Eiffel Tower",
+        "river": "Seine",
+        "economy": "tourism and manufacturing",
+        "language": "French"
+    },
+    {
+        "country": "Japan",
+        "capital": "Tokyo",
+        "continent": "Asia",
+        "climate": "temperate and subtropical",
+        "terrain": "mountainous islands",
+        "landmark": "Mount Fuji",
+        "river": "Shinano",
+        "economy": "technology and automobile manufacturing",
+        "language": "Japanese"
+    },
+    {
+        "country": "India",
+        "capital": "New Delhi",
+        "continent": "Asia",
+        "climate": "tropical and subtropical",
+        "terrain": "plains, deserts, mountains, and plateaus",
+        "landmark": "Taj Mahal",
+        "river": "Ganges",
+        "economy": "information technology, agriculture, and manufacturing",
+        "language": "Hindi and English"
+    },
+    {
+        "country": "Brazil",
+        "capital": "Brasilia",
+        "continent": "South America",
+        "climate": "tropical",
+        "terrain": "rainforests and highlands",
+        "landmark": "Christ the Redeemer",
+        "river": "Amazon",
+        "economy": "agriculture, mining, and energy",
+        "language": "Portuguese"
+    },
+    {
+        "country": "Canada",
+        "capital": "Ottawa",
+        "continent": "North America",
+        "climate": "cold continental",
+        "terrain": "forests, lakes, and mountains",
+        "landmark": "Niagara Falls",
+        "river": "Saint Lawrence",
+        "economy": "natural resources and technology",
+        "language": "English and French"
+    }
+]

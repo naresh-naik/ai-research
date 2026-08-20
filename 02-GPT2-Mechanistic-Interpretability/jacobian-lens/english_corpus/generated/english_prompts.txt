@@ -1,0 +1,159 @@
+The capital of France is Paris.
+The capital of Japan is Tokyo.
+The capital of India is New Delhi.
+The capital of Germany is Berlin.
+The capital of Italy is Rome.
+The capital of Australia is Canberra.
+The capital of Canada is Ottawa.
+The capital of Brazil is Brasilia.
+The capital of China is Beijing.
+The capital of Spain is Madrid.
+The largest planet in the solar system is Jupiter.
+The smallest planet in the solar system is Mercury.
+The Earth revolves around the Sun.
+The Moon revolves around the Earth.
+Water freezes at zero degrees Celsius.
+Water boils at one hundred degrees Celsius.
+The chemical symbol for gold is Au.
+The chemical symbol for oxygen is O.
+The chemical symbol for sodium is Na.
+The human heart has four chambers.
+The brain controls the nervous system.
+The Pacific Ocean is the largest ocean.
+Mount Everest is the tallest mountain.
+The Amazon River is one of the longest rivers.
+Light travels faster than sound.
+Plants perform photosynthesis.
+Birds lay eggs.
+Fish breathe through gills.
+Mammals feed their young with milk.
+Python is a programming language.
+Java was developed after C.
+Linux is an operating system.
+The CPU executes instructions.
+RAM stores temporary data.
+A keyboard is an input device.
+A monitor is an output device.
+The internet connects computers worldwide.
+Artificial intelligence enables machines to perform intelligent tasks.
+Machine learning learns patterns from data.
+Deep learning uses neural networks.
+The capital of Japan is Tokyo. The currency used there is
+The capital of France is Paris. The Eiffel Tower is located in
+The capital of Italy is Rome. The country shaped like a boot is
+The author of Harry Potter was born in
+The president lives in the capital city of the country.
+The river flows through the capital before reaching the sea.
+The scientist discovered the element before naming it.
+The engineer designed the bridge before it was constructed.
+The teacher explained the lesson before giving homework.
+The company released the product after months of testing.
+The astronaut landed on the Moon before returning home.
+The doctor examined the patient before prescribing medicine.
+The detective solved the mystery before arresting the criminal.
+The chef prepared the ingredients before cooking dinner.
+Twelve plus seventeen equals
+Forty three multiplied by six equals
+One hundred divided by four equals
+Eight squared equals
+The square root of eighty one is
+Nine multiplied by nine equals
+Twenty five plus seventy five equals
+One thousand minus two hundred equals
+Six multiplied by seven equals
+Fifty divided by five equals
+The object is inside the box.
+The book is on the table.
+The chair is beside the window.
+The cat is under the chair.
+The mountain is east of the river.
+The city lies north of the lake.
+The tree stands behind the house.
+The bridge crosses the river.
+The airport is south of the city.
+The park is between the school and the hospital.
+Breakfast happens before lunch.
+Lunch happens before dinner.
+Monday comes after Sunday.
+Winter comes before spring.
+Morning comes before evening.
+Yesterday was rainy.
+Tomorrow will be sunny.
+The meeting begins at noon.
+The train leaves after sunrise.
+The holiday starts next week.
+Gravity is
+Photosynthesis is
+A neuron is
+Entropy is
+A molecule is
+An ecosystem is
+An algorithm is
+A database is
+A compiler is
+A transformer model is
+Heating water causes it to boil.
+Rain makes the road wet.
+Removing oxygen extinguishes fire.
+Exercise improves health.
+Smoking increases health risks.
+Studying improves knowledge.
+Practice improves performance.
+Sunlight helps plants grow.
+Strong winds move clouds.
+Cold weather freezes water.
+Alice gave Bob a book. He thanked her.
+John met Sarah because she called him.
+Emma lent Olivia her notebook because she trusted her.
+Michael told David that he would arrive early.
+The engineer fixed the machine because it was broken.
+The teacher praised the student because she worked hard.
+The lawyer questioned the witness before he testified.
+The manager promoted the employee because she performed well.
+The child hugged the dog because it was friendly.
+The scientist thanked the assistant because she completed the experiment.
+Alice lives in Paris. She owns a dog. Every weekend she visits the park. The animal she owns is
+John bought a bicycle. He rides it every morning before work.
+The engineer built a robot. The robot learned to sort objects.
+Emma studies medicine. She hopes to become a doctor.
+The scientist discovered a planet. The discovery surprised everyone.
+The company released a product. Customers praised its design.
+The teacher wrote notes. Students copied them carefully.
+The farmer planted seeds. Rain helped them grow.
+The artist painted a landscape. The painting won an award.
+The author published a novel. Readers enjoyed the story.
+The cat chased the mouse.
+The mouse chased the cat.
+Although it was raining, the match continued.
+Despite the heavy traffic, they arrived on time.
+If I had known, I would have helped.
+Because she studied hard, she passed the exam.
+The quick brown fox jumps over the lazy dog.
+Every student completed the assignment.
+Some birds migrate during winter.
+Neither answer was completely correct.
+Apple
+Banana
+Orange
+Grape
+Mango
+King is to Queen as Prince is to
+Bird is to Sky as Fish is to
+Hot is to Cold as Light is to
+Doctor is to Hospital as Teacher is to
+Pen is to Write as Knife is to
+Car is to Road as Boat is to
+Eye is to See as Ear is to
+Sun is to Day as Moon is to
+Bird is to Nest as Bee is to
+Computer is to Software as Body is to
+The quick brown fox jumps over the lazy dog.
+Reading books improves vocabulary.
+The weather today is pleasant.
+The child smiled happily.
+The artist created a beautiful painting.
+The musician played the piano gracefully.
+The scientist published a research paper.
+The engineer solved the problem efficiently.
+The programmer wrote clean code.
+The student answered every question correctly.

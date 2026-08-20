@@ -1,0 +1,19 @@
+Physics studies matter, energy, motion, and forces. It seeks mathematical laws that describe the natural world.
+
+Newton's first law states that an object remains at rest or in uniform motion unless acted upon by an external force.
+
+Energy cannot be created or destroyed but only transformed between different forms.
+
+Electric current flows through conductors because electrons move under the influence of an electric field.
+
+Light behaves both as a wave and as a particle depending on the experiment.
+
+Gravity attracts masses toward one another according to Einstein's theory of general relativity.
+
+Sound travels through air as pressure waves.
+
+Temperature measures the average kinetic energy of particles.
+
+Magnetic fields arise from moving electric charges.
+
+Quantum mechanics describes microscopic particles using probabilities instead of deterministic trajectories.
